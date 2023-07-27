@@ -7,16 +7,19 @@ final appRputer = GoRouter(
 [
   GoRoute(
     path: '/',
+    name: HomeScreen.name,
     builder: (contex,state) => const HomeScreen()
   ),
 
   GoRoute(
     path: '/buttons',
+    name: ButtonsScreen.name,
     builder: (contex,state) => const ButtonsScreen()
   ),
 
   GoRoute(
       path: '/cards',
+      name: CardsScreen.name,
       builder: (contex,state) => const CardsScreen()
   ),
 
