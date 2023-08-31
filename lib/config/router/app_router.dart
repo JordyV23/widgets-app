@@ -41,5 +41,11 @@ final appRputer = GoRouter(
     builder: (contex,state) => const AnimatedScreen()
   ),
 
+  GoRoute(
+    path: '/ui-controls',
+    name: UiControlsScreen.name,
+    builder: (contex,state) => const UiControlsScreen()
+  ),
+
 
 ]);
