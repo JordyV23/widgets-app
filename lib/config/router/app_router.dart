@@ -47,5 +47,11 @@ final appRputer = GoRouter(
     builder: (contex,state) => const UiControlsScreen()
   ),
 
+  GoRoute(
+    path: '/tutorial',
+    name: AppTutorial.name,
+    builder: (contex,state) => const AppTutorial()
+  ),
+
 
 ]);

@@ -59,5 +59,12 @@ const appMenuItems = <MenuItem>[
     icon: Icons.contact_support_rounded
   ),
 
+  MenuItem(
+    title: 'Introduccion a la aplicacion', 
+    subTitle: 'Tutorial introductorio', 
+    link: '/tutorial', 
+    icon: Icons.book_outlined
+  ),
+
 
 ];
