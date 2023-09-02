@@ -53,5 +53,11 @@ final appRputer = GoRouter(
     builder: (contex,state) => const AppTutorial()
   ),
 
+  GoRoute(
+    path: '/infinite',
+    name: InfiniteScrollScreen.name,
+    builder: (contex,state) => const InfiniteScrollScreen()
+  ),
+
 
 ]);
